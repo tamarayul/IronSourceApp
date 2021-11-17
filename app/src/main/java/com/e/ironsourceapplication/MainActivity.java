@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements InterstitialListe
         IronSource.loadInterstitial();
     }
 
-
     @Override
     public void onInterstitialAdReady() {
         Log.d(TAG, "onInterstitialAdReady");
